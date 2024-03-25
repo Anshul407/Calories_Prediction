@@ -13,7 +13,7 @@ def predict_calories(data):
 # Main function for Streamlit app
 def main():
     # Title and header image
-    st.image('fitness_logo.png', width=200)
+    st.image('fitnessimg.jpeg', width=200)
     st.title('Calories Burned Prediction App')
 
     # Input fields
