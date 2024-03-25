@@ -40,7 +40,7 @@ def main():
     # Predict calories
     if st.button('Predict'):
         calories = predict_calories(data)
-        st.success(f'Predicted Calories Burned: {calories[0]:.2f}')
+        st.success(f'Your Have Burned: {calories[0]:.2f} Calories')
 
 # Run the app
 if __name__ == '__main__':
